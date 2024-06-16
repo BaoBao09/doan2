@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/SanPhamAD.css">
+    <link rel="stylesheet" href="../font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid">
+                <div class="grid__row header-grid">
+                    <div class="welcome">
+                        <p class="welcome-text">Xin chào<i class="fa-solid fa-sort-down"></i></p>
+                        <div class="info">
+                            <ul class="info-list">
+                                <li class="info-item">
+                                    <a href="#" class="info-link">
+                                        <i class="fa-solid fa-user "></i>Tài khoản
+                                    </a>
+                                </li>
+                                <li class="info-item">
+                                    <a href="#" class="info-link">
+                                        <i class="fa-solid fa-right-from-bracket"></i>Đăng xuất
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="content">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__col1">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="./Tongquan.html" class="nav-link">
+                                    <i class="fa-solid fa-dumpster icons-nav"></i>Tổng quan
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./LoaiSP.html" class="nav-link">
+                                    <i class="fa-solid fa-boxes-stacked icons-nav"></i>Loại sản phẩm
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./SanPham.html" class="nav-link">
+                                    <i class="fa-solid fa-barcode icons-nav"></i>Sản phẩm
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./KhachHang.html" class="nav-link">
+                                    <i class="fa-solid fa-users icons-nav"></i>Khách hàng
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./HoaDonNhap.html" class="nav-link">
+                                    <i class="fa-solid fa-file-import icons-nav"></i>Hóa đơn nhập
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./HoaDonBan.html" class="nav-link">
+                                    <i class="fa-solid fa-cart-shopping icons-nav"></i>Hóa đơn bán
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <i class="fa-solid fa-newspaper icons-nav"></i>Tin tức
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">
+                                    <i class="fa-solid fa-gear icons-nav"></i>Thiết lập
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__col11">
+                        <div class="grid__row">
+                            <div class="grid__col11-col4">
+                                <div class="col4-infoadmin">
+                                    <div class="col4-infoadmin-title">
+                                        <h3><i class="fa-solid fa-barcode icons-nav"></i>Nhập thông tin sản phẩm</h3>
+                                    </div>
+                                    <form action="">
+                                        <div class="input-type">
+                                            <label for="">Loại sản phẩm:</label><br>
+                                            <select name="" id="loaisp">
+                                                <option value="choose">--Chọn loại sản phẩm--</option>
+                                                <optgroup label="Điện thoại"></optgroup>
+                                                <option value="Điện thoại">--Chọn loại sản phẩm--</option>
+                                                <option value="Điện thoại">Iphone 7</option>
+                                                <option value="Điện thoại">Oppo A37</option>
+                                                <option value="Điện thoại">Xiaomi Redmi Note 11</option>
+                                                <option value="Điện thoại">IP XS Max</option>
+                                                <option value="Điện thoại">SamSung Galaxy S22</option>
+                                                <optgroup label="Tai nghe"></optgroup>
+                                                <option value="Tai nghe">Bluetooth AirPods 3 Apple MME73</option>
+                                                <option value="Tai nghe">Bluetooth True Wireless OPPO ENCO </option>
+                                                <option value="Tai nghe">Bluetooth Chụp tai Kannen K6</option>
+                                                <option value="Tai nghe">Mozard Flex4</option>
+                                                <option value="Tai nghe">Bluetooth 1 Bên Mozard</option>
+                                                <optgroup label="Sạc"></optgroup>
+                                                <option value="Sạc">AVA + LJ JP199</option>
+                                                <option value="Sạc">Xmobile Gram 6S </option>
+                                                <option value="Sạc">OPPO PBT02</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <div class="input">
+                                            <label for="">Mã sản phẩm:</label><br>
+                                            <input type="text" id="masp"  placeholder="Nhập mã sản phẩm...">
+                                        </div>
+                                        <div class="input">
+                                            <label for="">Tên sản phẩm:</label><br>
+                                            <input type="text" id="tensp" placeholder="Nhập tên sản phẩm...">
+                                        </div>
+                                        <!-- <div class="input">
+                                            <label for="">Hình ảnh:</label><br>
+                                            <input type="file" id="img" placeholder="Nhập tên sản phẩm..." style="border: 1px solid;">
+                                        </div> -->
+                                        <div class="input">
+                                            <label for="">Số lượng:</label><br>
+                                            <input type="number" id="soluong" placeholder="Nhập số lượng sản phẩm...">
+                                        </div>
+                                        <div class="input">
+                                            <label for="">Giá bán:</label><br>
+                                            <input type="text" id="gia" placeholder="Nhập giá sản phẩm...">
+                                        </div>
+                                    </form>
+                                    <hr style="margin-top: 20px; margin-bottom: 20px; background: #4B7BE5;">
+                                    <div class="btn-product">
+                                        <button class="add-product" onclick=" addsp()" >Thêm loại sản phẩm</button>
+                                        <button class="nhap-product" onclick = "Nhapmoi()">Nhập mới</button>
+                                        <button class="update-product" onclick = "CapNhap()">Cập nhập thông tin</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col11-col8">
+                                <div class="col8-title">
+                                    <h3><i class="fa-solid fa-barcode icons-nav"></i>Danh sách sản phẩm</h3>
+                                </div>
+                                <div class="col8-info">
+                                    <div class="col8-input">
+                                        <input type="text" placeholder="Nhập mã sản phẩm hoặc tên">
+                                        <select name="" id="">
+                                            <option value="choose">--Chọn loại sản phẩm--</option>
+                                            <optgroup label="Điện thoại"></optgroup>
+                                            <option value="Điện thoại">--Chọn loại sản phẩm--</option>
+                                            <option value="Điện thoại">Iphone 7 plus</option>
+                                            <option value="Điện thoại">Oppo A37</option>
+                                            <option value="Điện thoại">Xiaomi Redmi Note 11</option>
+                                            <option value="Điện thoại">IP XS Max</option>
+                                            <option value="Điện thoại">SamSung Galaxy S22</option>
+                                            <optgroup label="Tai nghe"></optgroup>
+                                            <option value="Tai nghe">Bluetooth AirPods 3 Apple MME73</option>
+                                            <option value="Tai nghe">Bluetooth True Wireless OPPO ENCO </option>
+                                            <option value="Tai nghe">Bluetooth Chụp tai Kannen K6</option>
+                                            <option value="Tai nghe">Mozard Flex4</option>
+                                            <option value="Tai nghe">Bluetooth 1 Bên Mozard</option>
+                                            <optgroup label="Sạc"></optgroup>
+                                            <option value="Sạc">AVA + LJ JP199</option>
+                                            <option value="Sạc">Xmobile Gram 6S </option>
+                                            <option value="Sạc">OPPO PBT02</option>
+                                        </select>
+                                        
+                                        <button class="btn-search"><i class="fa-solid fa-magnifying-glass" style="margin-right: 5px;"></i>Tìm kiếm</button>
+                                    </div>
+                                    <div class="table">
+                                        <!-- <input type="checkbox"> -->
+                                        <!-- <p>Mã sản phẩm</p>
+                                        <p>Tên sản phẩm</p>
+                                        <p>Hình ảnh</p>
+                                        <p>Số lượng</p>
+                                        <p>Giá bán</p>
+                                        <p>Loại sản phẩm</p>
+                                        <p>Nhà cung cấp</p>
+                                        <p>Thao tác</p> -->
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Tên sản phẩm</th>
+                                                    <!-- <th>Hình ảnh</th> -->
+                                                    <th>Số lượng</th>
+                                                    <th>Giá bán</th>
+                                                    <th>Loại sản phẩm</th>
+                                                    
+                                                    <th>Thao tác</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="listproduct">
+                                                <tr>
+                                                    <td>Samsung galaxy S</td>
+                                                    
+                                                    <td>01</td>
+                                                    <td>2000000</td>
+                                                    
+                                                    <td>SamSung</td>
+                                                    <td>
+                                                        <i class="fas fa-trash-alt" title="Xóa"></i>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col8-info-thongke">
+                                        <p>Số lượng sản phẩm: <span id="soluong">0</span></p>
+                                    </div>
+                                    <button class="delete" onclick="XoaChon()">Xóa chọn</button>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

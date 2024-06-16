@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: #171717;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    min-height: 89px;
+    display: flex;
+    align-items: center;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-from{
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    width: 50%;
+}
+.grid_title{
+    display: flex;
+    justify-content: flex-start;
+}
+.title-logo{
+    color: #fafafa;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+.title-login{
+    color: #fafafa;
+    margin-left: 20px;
+    font-size: 22px;
+    line-height: 30px;
+}
+.content{
+    padding-top: 48px;
+    min-height: 850px;
+}
+.content-from{
+    padding: 60px 50px 0 50px;
+}
+.from-header h2{
+    color: #0074d4;
+    font-weight: 400;
+    line-height: 50px;
+    font-size: 39px;
+    text-align: center;
+    line-height: 48px;
+}
+.form{
+    margin-top: 50px;
+
+}
+.from-content-password,
+.from-content-username {
+    margin: 20px 0;
+    position: relative;
+}
+.from-content-password{
+    margin-top: 40px;
+}
+
+.from-content-password > label,
+.from-content-username > label{
+    color: #909090;
+    position: absolute;
+    font-size: 20px;
+    /* top: 50%;
+    transform: translateY(-50%); */
+    top: -6px;
+    padding-left: 4px;
+
+}
+.input-password,
+.input-email{
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #8c8c8c;
+    width: 100%;
+    display: block;
+    height: 32px;
+    color: #fafafa;
+    font-size: 16px;
+}
+.input-password:focus,
+.input-email:focus{
+    border-bottom: 2px solid #0074d4;
+    /* border-left: 1px solid #0074d4 ; */
+}
+.input-password:focus::placeholder,
+.input-email:focus::placeholder{
+    
+    font-size: 12px;
+}
+
+.from-content-checkbox{
+    margin-top: 20px;
+    display: flex;
+}
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+    background: transparent;
+    color: transparent;
+}
+.from-content-checkbox > label{
+    color: #fafafa;
+    margin-left: 10px;
+}
+
+.from-content-login{
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+.btn-login{
+    padding: 16px 0;
+    min-width: 280px;
+    border-radius: 22px;
+    color: #fafafa;
+    font-weight: 700;
+    background-color: #5d5d5d;
+    font-size: 16px;
+}
+.from-content-miss-pass{
+    margin-top: 20px;
+    margin-left: 16px;
+    padding: 24px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    line-height: 36px;
+}
+.from-content-miss-pass > span{
+    margin: 0 6px;
+    font-weight: 500;
+    color: white ;
+}
+.link{
+    color: #8c8c8c;
+    font-weight: 500;
+    
+}
+.from-content-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+#login{
+    text-align: center;
+    border: none;
+    outline: none;
+    min-width: 280px;
+    background-color: #0074d4;
+    padding: 16px 0;
+    border-radius: 22px;
+    color: #fafafa;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+.qr,
+.gg{
+    min-width: 280px;
+    padding:16px 0;
+    background-color: #0074d4;
+    border-radius: 22px;
+    color: #fafafa;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+#login:hover,
+.qr:hover,
+.gg:hover{
+    opacity: 0.8;
+}
+.qr{
+    margin-top: 30px;
+
+}
+.icons{
+    width: 50px;
+    font-size: 20px;
+    float: left;
+}
+.footer{
+    min-height: 89px;
+    display: flex;
+    align-items: center;
+}
+.from-footer{
+    display: flex;
+    justify-content: flex-start;
+}
+.from-footer-one{
+    margin-left: 20px;
+}
+.from-footer-two > p,
+.from-footer-one > p{
+    color: #a9a9a9;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.from-footer-two > p{
+    display: inline-block;
+    
+}
+.from-footer-two{
+    margin-left: 50px;
+    line-height: 4px;
+    font-weight: 500;
+}
+.from-footer-two span{
+    color: #a9a9a9;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.from-footer-three{
+    flex: 1;
+}
+.from-footer-three p{
+    text-align: right;
+    color: #a9a9a9;
+    /* margin-left: 20px; */
+    font-size: 12px;
+}
